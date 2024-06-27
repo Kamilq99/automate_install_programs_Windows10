@@ -24,9 +24,7 @@ Skrypt wykonuje następujące kroki:
    Skrypt uruchamia pobrane instalatory z odpowiednimi przełącznikami, aby instalacja przebiegła automatycznie, bez interakcji użytkownika:
    - Google Chrome: `/silent /install`
    - Mozilla Firefox: `-ms`
-   - Adobe Acrobat Reader: `/sAll`
    - 7zip: `/S`
-   - LibreOffice: `/quiet` za pomocą `msiexec`
 
 5. **Usuwanie pobranych plików i tymczasowego folderu**: 
    Po zakończeniu instalacji skrypt usuwa wszystkie pobrane pliki oraz tymczasowy folder, aby zachować porządek na dysku.
